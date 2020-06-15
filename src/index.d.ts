@@ -1,8 +1,8 @@
 declare namespace Mute {
   /**
-   * Get the lastest element added
+   * Get the latest element added
    */
-  export function lastest(): {};
+  export function latest(): {};
 
   /**
    * Get the latest N numbers
