@@ -14,7 +14,7 @@ Mute.mutate(1);
 Mute.mutate(2);
 Mute.mutate(3);
 
-//Fetch latest or the
+//Fetch latest or using a step-based latest
 console.log(Mute.latest()); // OUTPUT: { lastest: 4 }
 console.log(Mute.latestN(1)); // OUTPUT:  { last: 1 }
 
