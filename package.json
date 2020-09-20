@@ -12,6 +12,7 @@
   "author": "Ignacio Brasca",
   "license": "MIT",
   "devDependencies": {
-    "jest": "^26.0.1"
+    "jest": "^26.0.1",
+     "lodash": ">=4.17.19"
   }
 }
