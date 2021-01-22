@@ -4,7 +4,7 @@ const Mute = (() => {
 
   return {
     latest: function () {
-      return { lastest: _lastElement[_lastElement.length - 2] };
+      return { latest: _lastElement[_lastElement.length - 2] };
     },
     latestN: function (idx) {
       return { last: _lastElement[idx] != null ? _lastElement[idx] : null };
