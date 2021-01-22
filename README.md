@@ -27,3 +27,6 @@ console.log(Mute.get(0)); // OUTPUT: { value : { a: 3 }}
 //And you can fetch all objects instead of just one
 console.log(Mute.getAll()); // OUTPUT: { value: [ { a: 3 }, 3, 2, 1, 4 ] }
 ```
+
+## Demo
+[Codesandbox Demo](https://codesandbox.io/s/mutestate-demo-7yy5b)
