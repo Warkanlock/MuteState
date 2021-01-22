@@ -16,7 +16,7 @@ const Mute = (() => {
     get: function (x) {
       let concatArray = [_internalValue].concat(_lastElement);
       if (concatArray.slice(0, concatArray.length - 1)[x] === undefined)
-        throw Error("ERROR: no value at this index");
+        return { value : null};
       return { value: concatArray.slice(0, concatArray.length - 1)[x] };
     },
     mutate: function (inital) {
